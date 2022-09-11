@@ -1,0 +1,37 @@
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #333;
+        color: #1bc2f0;
+      }
+      
+      .drop2 {
+        width: 12%;
+        height: auto;
+        float: left;
+      }
+
+      .hr {
+        display:block;
+         margin-left: 15%;
+         margin-right: 15%;
+         border-style: inset;
+        border-width: 1px;
+        width: min-content;
+      }
+
+      .f {
+        display: flex;
+      }
+
+      .about {
+        width: 40%;
+      }
+
+      .cu {
+        width: 1000px;
+      }
+
+      .HL {
+        font-size: larger;
+      }

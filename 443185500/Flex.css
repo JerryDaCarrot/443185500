@@ -1,0 +1,115 @@
+.Cala {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex: 1 1 0;
+    width: 300px;
+    border: 5px solid #1bc2f0;
+    margin: 20px;
+}
+
+.h1 {
+  text-align: center;
+  font-weight: 200;
+}
+
+.Img1 {
+    width:100%;
+    float: left;
+  }
+
+  .Text1 {
+  padding: 10%;
+  }
+
+  .Cham {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex: 1 15 0;
+      width: 300px;
+      border: 5px solid #1bc2f0;
+      margin: 20px;
+  }
+
+  .Img2 {
+    width:100%;
+    float: right;
+  }
+
+  .Text2 {
+  float: inline-end;
+  padding: 10%;
+  height: 100%;
+  }
+
+  .Part1 {
+    display: flex;
+    flex-basis: 0;
+  }
+
+  .Wai {
+    display: flex;
+    flex-direction: column;
+    flex: 1 15 0;
+    width: 100%;
+    flex-basis: 0;
+    width: 300px;
+    border: 5px solid #1bc2f0;
+    margin: 20px;
+    margin-top: 5px;
+  }
+  
+  .Img3 {
+    width: 100%;
+  }
+
+  .Text3 {
+    padding: 10%;
+  }
+
+  .White {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    width: auto;
+    width: 300px;
+    border: 5px solid #1bc2f0;
+    margin: 20px;
+  }
+
+  .Part2 {
+    display: flex;
+    flex-basis: 0;
+    flex-direction: column;
+    flex: 1 1 0;
+  }
+
+  .Img4 {
+    width: 100%;
+  }
+
+  .Text4 {
+    padding: 10%;
+  }
+  
+  .Img5 {
+    width: 100%;
+  }
+
+  .Text5 {
+    padding: 10%;
+  }
+
+  .Part4 {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Pipa {
+    width: 300px;
+    border: 5px solid #1bc2f0;
+    margin: 20px;
+  }

@@ -1,0 +1,317 @@
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 5;
+  width: 100%; 
+  z-index: 100;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1bc2f0;
+}
+
+.navbar a:hover {
+    color: #ddd;
+    background-color: #1bc2f0;
+  }
+
+.navbar a.active {
+    background-color: #1bc2f0;
+    color: white;
+  }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .cont .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #000;
+    outline: #1bc2f0;
+    outline-width: 1000px;
+  }
+
+  .box {
+    outline: #1bc2f0;
+    outline-color: #1bc2f0;
+    outline-width: 200px;
+  }
+
+  .cont .box1 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1bc2f0;
+  }
+  
+  .cont .box2 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #33c8f2;
+    transition: transform .2s;
+  }
+
+  .cont .box3 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #4bcff3;
+
+  }
+
+  .cont .box4 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #63d5f5;
+
+  }
+
+  .cont .box5 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #0fb5e3;
+
+  }
+
+  .cont .box6 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #0da2cb;
+
+  }
+
+  .cont .box7 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #7bdbf7;
+
+  }
+
+  .cont .box8 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #93e2f8;
+
+  }
+
+  .cont .box9 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #abe8fa;
+
+  }
+
+  .cont .box10 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #c3effb;
+  
+  }
+
+  .cont .box11 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #dbf5fd;
+  }
+
+  .cont .box12 {
+    position: relative;
+    width: calc(200px - 15px);
+    height: calc(150px - 15px);
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #0b8fb3;
+  }
+
+  .b2 {
+    text-align: center;
+    margin: 30px;
+      }
+
+  .b2:hover{
+    transform: scale(1.5);
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: #1bc2f0;
+  }
+  
+  .drop2 {
+    width: 12%;
+    height: auto;
+    float: left;
+  }
+
+  .hr {
+    display:block;
+     margin-left: 15%;
+     margin-right: 15%;
+     border-style: inset;
+    border-width: 1px;
+    width: min-content;
+  }
+
+  .f {
+    display: flex;
+  }
+
+  .about {
+    width: 40%;
+  }
+
+  .cu {
+    width: 1000px;
+  }
+
+  .HL {
+    font-size: larger;
+  }
+
+
+
+
+
+
+
+
+
+
+
